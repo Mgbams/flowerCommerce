@@ -1,7 +1,6 @@
-import React from "react";
-import "./../styles/Cart.css";
+import "../styles/Cart.css";
 
-export default function Cart() {
+function Cart() {
   const monsteraPrice = 8;
   const ivyPrice = 10;
   const flowerPrice = 15;
@@ -17,3 +16,5 @@ export default function Cart() {
     </div>
   );
 }
+
+export default Cart;
